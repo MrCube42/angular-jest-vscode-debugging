@@ -25,8 +25,7 @@
       "args": [
         "test",
         "--testMatch=\"**/+(*.)+(spec|test).+(ts|js)?(x)\"",
-        "--testPathPattern",
-        "${fileBasenameNoExtension}",
+        "--testPathPattern=${fileBasenameNoExtension}",
         "--runInBand",
       ],
       "console": "integratedTerminal",
